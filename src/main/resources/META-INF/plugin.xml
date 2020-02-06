@@ -3,7 +3,7 @@
     <name>WebSequenceDiagrams Support</name>
     <vendor email="anecdotesoftware@gmail.com">Nathan Brown</vendor>
     <description><![CDATA[
-    Custom editor for the sequence diagram language defined by <a href="http://www.websequencediagrams.com">WebSequenceDiagrams.com</a>.
+    Custom editor for the sequence diagram language defined by <a href="https://www.websequencediagrams.com">WebSequenceDiagrams.com</a>.
     Supports:
     <ul><li>Preview of generated sequence diagram (default style, bitmap only)</li></ul>
     To Do in future versions:

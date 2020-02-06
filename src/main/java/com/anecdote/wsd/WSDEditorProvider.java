@@ -99,7 +99,7 @@ final class WSDEditorProvider implements FileEditorProvider, DumbAware
     String data = String.format("style=%s&message=%s&apiVersion=1&format=%s", style, message, format);
 
     // Send the request
-    URL url = new URL("http://www.websequencediagrams.com");
+    URL url = new URL("https://www.websequencediagrams.com");
     URLConnection conn = url.openConnection();
     conn.setDoOutput(true);
     OutputStreamWriter writer = new OutputStreamWriter(
@@ -124,7 +124,7 @@ final class WSDEditorProvider implements FileEditorProvider, DumbAware
     int start = json.indexOf("?" + format + "=");
     int end = json.indexOf("\"", start);
 
-    url = new URL("http://www.websequencediagrams.com/" +
+    url = new URL("https://www.websequencediagrams.com/" +
                   json.substring(start, end));
     return url;
   }

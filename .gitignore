@@ -92,3 +92,10 @@ fabric.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /build/
+/.idea/
+/.gradle/buildOutputCleanup/
+/.gradle/vcsWorkingDirs/
+/.gradle/4.8/fileContent/
+/.gradle/4.8/fileHashes/
+/.gradle/4.8/fileChanges/
+/.gradle/4.8/taskHistory/
